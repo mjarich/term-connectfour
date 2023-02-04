@@ -1,3 +1,4 @@
+#!usr/bin/python3
 from termcolor import colored
 import os
 
@@ -54,7 +55,8 @@ def play():
     first_player_decided = False
     game_over = False
     error = None
-
+    
+    clear()
     while not first_player_decided:
         starter = input('Who gets the first move? Enter 0 for RED, 1 for YELLOW.\n')
 
